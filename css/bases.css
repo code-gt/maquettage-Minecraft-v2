@@ -74,7 +74,7 @@ h5 {
     padding: 0;
 }
 
-.container {
+.container, .row {
     z-index: 2;
 }
 
