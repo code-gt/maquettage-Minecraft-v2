@@ -5,6 +5,14 @@ Code couleur Vert Minecraft : #66a01a
 
 Conseil : ajoutez une class unique à chaque section pour gérer les background-color et les différentes variantes de couleurs de vos titres h2 et de vos liens
 
+Section 'Comment jouer à Minecraft' : #EDE5E2;
+
+Bleu Minecraft Legends : #4AD5FF;
+Fond Minecraft Legends : #171615;
+
+Violet Minecraft Dungeons : #4F1030;
+
+
 */
 
 /* CUBES */
@@ -20,7 +28,7 @@ Conseil : ajoutez une class unique à chaque section pour gérer les background-
     position: absolute;
     width: 240px;
     height: 240px;
-    background-color: rgb(38,36,35);
+    background-color: #313131;
     clip-path: polygon(
         0 60px, 0 0, 60px 0, 60px 60px,
         120px 60px, 120px 0, 240px 0,
