@@ -74,6 +74,10 @@ h5 {
     padding: 0;
 }
 
+.container {
+    z-index: 2;
+}
+
 .bg-image {
     background-image: url(../img/background-body.jpg);
 }
