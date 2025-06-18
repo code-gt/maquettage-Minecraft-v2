@@ -1,0 +1,32 @@
+/*
+Code couleur Vert Minecraft : #66a01a
+*/
+/*
+
+Conseil : ajoutez une class unique à chaque section pour gérer les background-color et les différentes variantes de couleurs de vos titres h2 et de vos liens
+
+*/
+
+/* CUBES */
+
+/* Dupliquer ce CSS et changer en la couleur de fond pour reproduire le schéma des cubes */
+
+.cubes_a {
+    position: relative;
+}
+
+.cubes_a:after {
+    content: "";
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    background-color: rgb(38,36,35);
+    clip-path: polygon(
+        0 60px, 0 0, 60px 0, 60px 60px,
+        120px 60px, 120px 0, 240px 0,
+        240px 120px, 180px 120px, 180px 60px,
+        120px 60px, 120px 120px, 60px 120px,
+        60px 180px, 0 180px, 0 120px,
+        60px 120px, 60px 60px
+    );
+}
